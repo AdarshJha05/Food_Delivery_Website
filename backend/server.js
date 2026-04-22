@@ -20,7 +20,15 @@ const port= process.env.PORT || 4000;
 
 //middleware
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "https://food-delivery-website-uhdp.vercel.app",
+    "https://food-delivery-website-bb5m.vercel.app"
+  ],
+  credentials: true
+}));
 
 
 //db connection
@@ -40,6 +48,6 @@ app.get("/",(req,res)=>{
 
 
 app.listen(port,()=>{
-    console.log(`Server Started on http://localhost:${port}`)
+    console.log(`Server Started on ${port}`)
 })
 
