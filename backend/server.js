@@ -27,6 +27,7 @@ app.use(cors({
     "https://food-delivery-website-uhdp.vercel.app",
     "https://food-delivery-website-bb5m.vercel.app"
   ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
 
