@@ -6,7 +6,6 @@ It includes a user-facing app, admin panel, and backend API.
 🚀 Live Demo
 🌐 User App: https://food-delivery-website-uhdp.vercel.app
 
-
 🧩 Features:
 👤 User App, 
 Browse food items 🍕, 
@@ -26,21 +25,8 @@ RESTful APIs using Express,
 MongoDB Atlas integration, 
 JWT authentication, 
 Stripe payment integration, 
-🏗️ Tech Stack, 
 
-Frontend:
-React.js, 
-Vite, 
-Axios, 
-React Router, 
-
-Backend:
-Node.js, 
-Express.js, 
-MongoDB (Atlas), 
-Mongoose, 
-
-Other Tools:
-Stripe (Payments), 
-JWT (Authentication), 
-bcrypt (Password hashing), 
+🏗️ Tech Stack:
+Frontend: React.js, Vite, Axios, React Router, 
+Backend: Node.js, Express.js, MongoDB (Atlas), Mongoose, 
+Other Tools: Stripe (Payments), JWT (Authentication), bcrypt (Password hashing), 
